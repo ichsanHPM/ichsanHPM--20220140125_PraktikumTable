@@ -1,0 +1,46 @@
+body {  /* mengatur bagian body */
+    font-family: 'Yusei Magic', sans-serif;  /* memberikan font pada bagian body */
+    background-color:#9832D6;  /* memberikan warna backgroun pada bagian body */
+    margin: 0; 
+    padding: 0; 
+} 
+  
+.container {  /* mengatur bagian container */
+    max-width: 800px; 
+    margin: 50px auto; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; /* Mengatur sudut container supaya tidak lancip */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+
+.img {  /* mengatur tampilan gambar */
+    max-width: 100px; /* Mengatur lebar */
+    max-height: 100px; /* Mengatur tinggi */
+    border-radius: 15px; /* Mengatur sudut gambar supaya tidak lancip */
+
+} 
+   
+table {  /* mengatur table */
+    width: 100%; 
+    border-collapse: collapse; 
+} 
+   
+th, 
+td { /* mengatur th dan td */
+    padding: 12px 15px; 
+    text-align: left; 
+    border-bottom: 1px solid #ef0d0d; /* mengatur warna garis garis */ 
+} 
+   
+th { 
+    background-color: #cecccc; /* mengatur warna background th */
+    color: #2c3e50; /* mengatur warna tulisan pada th */
+}
+    
+tbody tr:hover { 
+    background-color: #11c1ed; /* membuat supaya saat cursor diaranhkan ke tabel, pada bagian tersebut menjadi biru */
+}
+
+
+
